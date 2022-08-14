@@ -1,0 +1,75 @@
+body, html {
+    font-family:"Playfair Display";
+    color:white;
+    margin:0;
+}
+.container {
+    background-color:rgb(7, 7, 7);
+}
+
+#navbar{
+    width:100%; 
+    background:transparent; 
+
+}
+
+.items {
+    display:flex;
+}
+
+.item {
+    margin:20px;
+    transition:.33s;
+    
+
+}
+
+.blueHover:hover{
+    color:#2562d8;
+    transition:.33s
+}
+
+.goldHover:hover{
+    color:#f4d45e;
+    transition:.33s
+}
+
+
+.first-section{
+    display:flex;
+    height:100vh;
+    width:100%;
+
+}
+
+.half {
+    width:50%;
+}
+
+
+
+.first-text{
+    position:relative;
+    top:40%;
+    transform:translate(0,-40%);
+    padding:30px;
+}
+
+.second-half{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue{
+    color:#2562d8;
+}
+
+#gold {
+    color:#f4d45e;
+}
+
+img {
+    width:400px;
+    height:500px;
+}
