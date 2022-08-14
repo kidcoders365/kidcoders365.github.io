@@ -91,7 +91,9 @@ html, body{
     display: none;
     height: 10vw;
     top: 2vw;
-
+}
+.header-bar2-hamburger:hover{
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -117,10 +119,8 @@ html, body{
     background-color:#000;
 }
 
-
-
 .header-bar2-hamburger.is-active .dropdown-content{
-    width: 100vw;
+    width: 50vw;
     margin-top: 10px;
     display: block;
 }
