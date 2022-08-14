@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+}
+
+.centered {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+    left: 25vw;
+    margin-bottom: 2vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-top: 5vw;
+    top: 4vw;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 72px;
+}
+
+.subtitle {
+    width: 50vw;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
