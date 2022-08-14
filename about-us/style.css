@@ -5,6 +5,10 @@ html, body{
 
 }
 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
 .centered {
     width: 50%;
     display: flex;
@@ -33,3 +37,141 @@ html, body{
     font-weight: 300;
     color: white;
 }
+
+#navbar{
+    position: absolute;
+    top: 1vw;
+    right: 2vw;
+    float: right;
+    width: auto;
+    font-size: 20px;
+}
+.logo{
+    float: left;
+}
+.items{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo{
+    font-family: 'Montserrat';
+    display: flex;
+    position: absolute;
+    top: 1vw;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 0;
+    align-items: center;  
+}
+.logo h1{
+    margin-left: 1vw;
+}
+
+.header-bar2 {
+    margin-top: 1.5vw;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    list-style-type: none;
+    float: right;
+    top: 45px;
+    z-index: 1;
+}
+
+.header-bar2-item {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 1.5vw;
+}
+
+.header-bar2-hamburger {
+    display: none;
+    height: 10vw;
+    top: 2vw;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5C6E9A;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 10vw;
+    left: 0;
+}
+
+.dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 5px;
+    display: block;
+    font-size: 1.5vw;
+
+}
+
+.dropdown-content :hover{
+    background-color:#000;
+}
+
+
+
+.header-bar2-hamburger.is-active .dropdown-content{
+    width: 100vw;
+    margin-top: 10px;
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 1.5vw;
+    top: 2vw;
+    left: 0px;
+
+}
+
+.hamburger-bar {
+    width: 4vw;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 2px;
+    min-width: 30px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .header-bar2-item{
+        visibility: hidden;
+    }
+    .header-bar2{
+        top: 0 !important;
+        right: 0;
+        
+    }
+    .header-bar2-hamburger{
+       display: block;
+    }
+    .dropdown-content a {
+        font-size: 3vw;
+    }
+    .dropdown{
+        display: inline-block;
+        margin-top: 3vw;
+    }
+    #navbar{
+        display: none;
+    }
+    .logo{
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .centered{
+        transform: translateY(20%);
+    }
+}
+    
+
