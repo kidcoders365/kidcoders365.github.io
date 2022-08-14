@@ -27,8 +27,9 @@ html, body{
 }
 
 .title {
-    font-weight: 500;
     font-size: 72px;
+    font-weight: bold;
+
 }
 
 .subtitle {
@@ -40,6 +41,7 @@ html, body{
 
 #navbar{
     position: absolute;
+    font-family: 'Montserrat';
     top: 1vw;
     right: 2vw;
     float: right;
@@ -93,6 +95,7 @@ html, body{
 }
 
 .dropdown-content {
+    font-family: 'Montserrat';
     display: none;
     position: absolute;
     background-color: #5C6E9A;
