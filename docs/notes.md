@@ -12,5 +12,5 @@
 
 ## Things to touch up on/look for
 - Modify the second div
-- Implement GSAP?
+- Implement GSAP animations?
 - Add footer
