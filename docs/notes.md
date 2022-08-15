@@ -8,6 +8,7 @@
 - Since we have 10+ members, I'll make each person's section much smaller since this page is a huge mess
 - **Should we consider shortening the bios?**
 - Make each person's section a modal
+- Add images from site, i was too lazy to put them
 
 ## August 14 Updates
 - Touched up on styling from yesterday
