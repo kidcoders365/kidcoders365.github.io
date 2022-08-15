@@ -60,6 +60,18 @@ body, html {
 
 }
 
+.about {
+    margin:50px;
+}
+
+.about-container{
+    height:100%;
+    width:100%;
+    margin:50px;
+}
+
+
+
 .half {
     width:50%;
 }
@@ -73,6 +85,49 @@ body, html {
     padding:50px;
 }
 
+.about {
+    background-color: rgb(9,9,9);
+}
+
+
+
+.staff-row{
+    /* margin:30px; */
+    display:flex;
+    width:100%;
+    height:500px;
+}
+
+/* .staff-members{
+    display: flex;
+} */
+
+.president {
+    width:100%;
+    height:400px;
+    /* margin:30px; */
+}
+.president img {
+    width:350px;
+    height:300px;
+}
+
+p#title {
+    font-size:18px;
+}
+.member {
+    width:32%;
+    height:200px;
+    margin-top:30px;
+}
+
+.member p{
+    font-size:14px;
+}
+.member img {
+    width:200px;
+    height:200px;
+}
 .first-text h1 {
     font-size:36px;
 }
@@ -115,17 +170,19 @@ img {
 
 .class {
     width:500px;
-    height:150px;
+    /* height:350px; */
+    padding:20px;
     background: rgb(16, 16, 16);
     margin:20px;
     border-radius: 10px;
+    transition:1s;
 }
 
 .class h1{
-    margin:20px;
+    /* margin:20px; */
 }
 .class p{
-    margin:20px;
+    /* margin:20px; */
 }
 
 
@@ -137,4 +194,29 @@ img {
 .class p {
     font-size:12px;
 
+}
+
+.class:hover{
+    transform:translateY(-10px);
+    transition:1s;
+}
+
+button {
+    background-color: transparent;
+    color:white;
+    font-family:"Playfair Display";
+    font-size:15px;
+    border:none;
+    padding:5px 10px;
+    transition:1s;
+}
+
+button:hover{
+    background-color:rgb(7, 7, 7);
+    transition:1s;
+}
+
+a{
+    text-decoration: none;
+    color:white;
 }
