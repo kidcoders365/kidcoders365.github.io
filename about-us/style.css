@@ -43,7 +43,7 @@ body {
 
 #navbar {
     position: absolute;
-    font-family: 'Montserrat';
+    font-family: 'Verdana';
     top: 1vw;
     right: 2vw;
     float: right;
@@ -109,7 +109,7 @@ body {
     background-color: #5C6E9A;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    width: 10vw;
+    width: 2vw;
     left: 0;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .header-bar2-hamburger.is-active .dropdown-content {
-    width: 50vw;
+    width: 35vw;
     margin-top: 10px;
     display: block;
 }
@@ -155,7 +155,7 @@ body {
     margin-left: 20px;
 }
 
-@media only screen and (max-width: 1045px) {
+@media only screen and (max-width: 1390px) {
     .header-bar2-item {
         visibility: hidden;
     }
@@ -169,7 +169,6 @@ body {
     .header-bar2-hamburger {
         display: block;
     }
-
     .dropdown-content a {
         font-size: 3vw;
     }
