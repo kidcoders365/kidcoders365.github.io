@@ -233,6 +233,21 @@ button:hover{
     transition:1s;
 }
 
+#indexbtn {
+    background: #2562d8;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 rgb(7, 7, 7, 0.5);
+    transition: 0.3s;
+}
+
+#indexbtn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 a{
     text-decoration: none;
     color:white;
@@ -262,6 +277,10 @@ a{
     height: 100vh;
 }
 
-table, th {
+table {
     padding: 30px;
+}
+
+th {
+    padding: 0 40px 0 40px;
 }
