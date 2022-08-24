@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: rgb(7, 7, 7);">
-    <div class="container">
+<body style="background-color: rgb(7, 7, 7)">
+    <div class="first-section">
         <nav id="navbar">
             <div class="items">
                 <img class="item" src="images/kidcoders logo.png">
@@ -31,43 +31,41 @@
                 <a class="item blueHover" href="contact.html">CONTACT US</a>
             </div>
         </nav>
-
-        <div class="about">
-            <div class="about-container">
-                <div class="about-text">
-                    <h1 class="blue">MEET THE TEAM</h1>
+        <div class="fs-container">
+            <div class="half text-half">
+                <div class="first-text">
+                    <h1><span class="gold">Meet the team.</span></h1>
+                    <p>Interested in learning the various coding languages of the future? Look no further than KidCoders 365. Run for students, by students. All for free. Come join us in the Rockville Memorial Library's second floor computer lab or online via zoom. Registration for fall 2022 workshops is opening soon!</p>
+                    <button id="indexbtn" onclick="location.href='#profiles'"><i class="fa-solid fa-angles-down"></i></button>
                 </div>
+            </div>
+        </div>
+    </div>
+        <img class="background-img" src="https://mail.google.com/mail/u/0?ui=2&ik=a746ff34c5&attid=0.1.1&permmsgid=msg-f:1742051114206048641&th=182d024232d33181&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-rrOoA0UqfzoAx2rminC22PB4h6h4bPv-ZZGKmNkUgdb9IFc6pcY5dQABLVCif_3VKnQUX5osdxagVemkoMrqXIhqNY7DxmkEyXjx1mk7EhdeNA86sx41cmo8&disp=emb">
+        <div class="about">
+            <div class="about-container" id="profiles">
                 <div class="staff-members">
                     <div class="staff-row">
-                        <div class="president">
+                        <div class="member">
                             <img src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/prince-light-skin-tone.png" alt="">
-                            <div class="info">
-                                <h1>Arush Arora</h1>
-                                <p id="title" class="gold">President</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas
-                                    odit
-                                    fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium
-                                    sunt
-                                    ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in
-                                    eveniet
-                                    illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
-                                    <p>Hello World</p>
-                            </div>
+                            <h1>Arush Arora</h1>
+                            <p id="title" class="gold">President</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas
+                                odit
+                                fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium
+                                sunt
+                                ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in
+                                eveniet
+                                illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
                         </div>
-
-                    </div>
-                    <div class="staff-row">
                         <div class="member">
                             <img src="https://www.kindpng.com/picc/m/122-1223386_transparent-crown-emoji-png-transparent-background-devil-emoji.png" alt="">
-                            <div class="info"">
-                                <h1>Lucas Kang</h1>
-                                <p id="title" class="gold">Instructor & Coordinator</p>
-
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas odit
-                                fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium sunt
-                                ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
-                                illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
-                            </div>
+                            <h1>Lucas Kang</h1>
+                            <p id="title" class="gold">Instructor & Coordinator</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas odit
+                             fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium sunt
+                             ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
+                             illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
                         </div>
                         <div class="member">
                             <img src="https://d3ui957tjb5bqd.cloudfront.net/uploads/2016/12/10_2-clown.jpg" alt="">
@@ -79,6 +77,8 @@
                                 ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
                                 illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
                         </div>
+                    </div>
+                    <div class="staff-row">
                         <div class="member">
                             <img src="https://d3ui957tjb5bqd.cloudfront.net/uploads/2016/12/10_2-clown.jpg" alt="">
                             <h1>Yesho Vir</h1>
@@ -88,8 +88,6 @@
                                 ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
                                 illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
                         </div>
-                    </div>
-                    <div class="staff-row">
                         <div class="member">
                             <img src="https://d3ui957tjb5bqd.cloudfront.net/uploads/2016/12/10_2-clown.jpg" alt="">
                             <h1>Richard Yin</h1>
@@ -105,15 +103,6 @@
                             <h1>Karthik</h1>
                             <p id="title" class="gold">Instructor & Coordinator</p>
 
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas odit
-                                fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium sunt
-                                ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
-                                illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
-                        </div>
-                        <div class="member">
-                            <img src="https://d3ui957tjb5bqd.cloudfront.net/uploads/2016/12/10_2-clown.jpg" alt="">
-                            <h1>Tong</h1>
-                            <p id="title" class="gold">Instructor & Coordinator</p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas odit
                                 fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium sunt
                                 ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
@@ -172,10 +161,18 @@
                                 ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
                                 illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
                         </div>
-                    </div>>
+                        <div class="member">
+                            <img src="https://d3ui957tjb5bqd.cloudfront.net/uploads/2016/12/10_2-clown.jpg" alt="">
+                            <h1>Tong</h1>
+                            <p id="title" class="gold">Instructor & Coordinator</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis molestiae quas odit
+                                fuga quidem sint tempora distinctio iure recusandae quae, ducimus illum accusantium sunt
+                                ipsa in vero autem consequuntur dolorum ad quo. A iusto tempore nemo, odio in eveniet
+                                illo repellat nam adipisci at nulla labore beatae ratione sunt soluta.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 </body>
 
 </html>
