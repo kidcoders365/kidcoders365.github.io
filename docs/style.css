@@ -284,3 +284,8 @@ table {
 th {
     padding: 0 40px 0 40px;
 }
+
+mark {
+    background-color: #f4d45e;
+    color: #2562d8;
+}
