@@ -71,15 +71,6 @@ body, html {
 
 }
 
-.about {
-    margin:50px;
-}
-
-.about-container{
-    height:100%;
-    width:100%;
-    margin:50px;
-}
 
 
 
@@ -106,49 +97,6 @@ body, html {
     padding:50px;
 }
 
-.about {
-    background-color: rgb(9,9,9);
-}
-
-
-
-.staff-row{
-    /* margin:30px; */
-    display:flex;
-    width:100%;
-    height:500px;
-}
-
-/* .staff-members{
-    display: flex;
-} */
-
-.president {
-    width:100%;
-    height:400px;
-    /* margin:30px; */
-}
-.president img {
-    width:350px;
-    height:300px;
-}
-
-p#title {
-    font-size:18px;
-}
-.member {
-    width:32%;
-    height:200px;
-    margin-top:30px;
-}
-
-.member p{
-    font-size:14px;
-}
-.member img {
-    width:200px;
-    height:200px;
-}
 .first-text h1 {
     font-size:36px;
 }
@@ -285,7 +233,60 @@ th {
     padding: 0 40px 0 40px;
 }
 
-mark {
-    background-color: #f4d45e;
-    color: #2562d8;
+/* ABOUT.HTML CSS BELOW */
+.info {
+    padding: 20px;
+}
+
+.about {
+    margin:50px;
+}
+
+.about-container{
+    height:100%;
+    width:100%;
+    margin:50px;
+}
+
+.staff-row{
+    /* margin:30px; */
+    display:flex;
+    width:100%;
+    height:500px;
+}
+
+/* .staff-members{
+    display: flex;
+} */
+
+.president {
+    width:100%;
+    height:400px;
+    /* margin:30px; */
+}
+.president img {
+    width:350px;
+    height:300px;
+}
+
+p#title {
+    font-size:18px;
+}
+.member {
+    width:32%;
+    height:200px;
+    margin-top:30px;
+    padding: 30px;
+}
+
+.member p{
+    font-size:14px;
+}
+.member img {
+    width:200px;
+    height:200px;
+}
+
+.president, .member, .info {
+    background-color: #10254f;
 }
