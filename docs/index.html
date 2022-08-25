@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KidCoders 365</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Playfair+Display&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -18,77 +19,67 @@
 
 <body>
     <div class="container">
-        <nav id="navbar">
-            <div class="items">
-                <a class="item blueHover blueActive" href="#""">KIDCODERS 365</a>
-                <a class="item goldHover" href="about.html">OUR TEAM</a>
-                <a class="item blueHover" href="#">OUR CLASSES</a>
-                <a class="item goldHover" href="#">TESTIMONIALS</a>
-                <a class="item blueHover" href="#">CONTRIBUTE</a>
-                <a class="item goldHover" href="#">CONTACT US</a>
-            </div>
-        </nav>
-
         <div class="first-section">
+            <nav id="navbar">
+                <div class="items">
+                    <img class="item" src="images/kidcoders logo.png">
+                    <a class="item blueHover active" href="index.html">HOME</a>
+                    <a class="item blueHover" href="about.html">OUR TEAM</a>
+                    <a class="item blueHover" href="class-information.html">OUR CLASSES</a>
+                    <a class="item blueHover" href="testimonials.html">TESTIMONIALS</a>
+                    <a class="item blueHover" href="contribute.html">CONTRIBUTE</a>
+                    <a class="item blueHover" href="contact.html">CONTACT US</a>
+                </div>
+            </nav>
             <div class="fs-container">
                 <div class="half text-half">
                     <div class="first-text">
                         <h2>01 / 03</h2>
-                        <h1>We are <span class="blue">KidCoders</span> <span class="gold">365.</span></h1>
-                        <h2 id="italic" class="gold">"Kids Teaching Kids"</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione, at laudantium
-                            porro
-                            dolor natus. Iusto sunt modi eius necessitatibus, natus dolor exercitationem sed?
-                            Consectetur
-                            libero magni iusto eaque doloribus qui, molestias quia et ab natus ipsa dolorem omnis
-                            aperiam iure sunt officiis temporibus expedita tempore aspernatur? Quo, hic
-                            optio!</p>
+                        <h1>We are <span class="gold">KidCoders 365.</span></h1>
+                        <h2 id="italic" class="blue">"Kids Teaching Kids"</h2>
+                        <p>Interested in learning the various coding languages of the future? Look no further than KidCoders 365. Run for students, by students. All for free. Come join us in the Rockville Memorial Library's second floor computer lab or online via zoom. Registration for fall 2022 workshops is opening soon!</p>
+                        <button id="indexbtn">Register</button>
                     </div>
-                </div>
-                <div class="half img-half">
-                    <img src="assets/pexels-pavel-danilyuk-5496464.jpg" alt="" id="lol">
                 </div>
             </div>
         </div>
+        <img class="background-img" src="https://mail.google.com/mail/u/0?ui=2&ik=a746ff34c5&attid=0.1.1&permmsgid=msg-f:1741910188793457132&th=182c821671aae9ec&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8dFM8pgynR2vdb8KktBXdcwcIYleFkLGJ8ex0tdH4vah0IL9CQGmjB7vCE8uMeNmsq03KVckuFW7rhLtzeUzeKywBLnnNRYlfTr_GDDPOnEEOzpZfiICHR4aY&disp=emb">
         <div class="second-section">
             <div class="fs-container">
                 <div class="half text-half">
-                    <div class="first-text">
+                    <div class="second-text">
                         <h2>02 / 03</h2>
+                        <h1>Who are we?</h1>
+                        <p>KidCoders 365 is an organization that offers free, interactive programming classes for elementary, middle, and high school students, run by high school students in Maryland.</p>
                         <h1>What do we do?</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione, at laudantium
-                            porro
-                            dolor natus. Iusto sunt modi eius necessitatibus, natus dolor exercitationem sed?
-                            Consectetur
-                            libero magni iusto eaque doloribus qui, molestias quia et ab natus ipsa dolorem omnis
-                            aperiam iure sunt officiis temporibus expedita tempore aspernatur? Quo, hic
-                            optio!</p>
+                        <p>Today’s kids often feel that there are limited opportunities to learn full programming languages. Our organization seeks to provide youth with free, unrestricted opportunities to explore computer programming, a vital skill in the modern world, as well as essential skills related to the subject.</p>
+                        <button id="indexbtn" onclick="location.href='about.html'">Learn more</button>
                     </div>
                 </div>
                 <div class="half img-half">
-                    <img src="assets/pexels-pavel-danilyuk-5496464.jpg" alt="" id="lol">
+                    <img src="images/IMG-8557.jpg" height="100%">
                 </div>
             </div>
         </div>
         <div class="third-section">
             <div class="fs-container">
                 <!-- <div class="half text-half"> -->
-                <div class="first-text">
+                <div class="third-text">
                     <h2>03 / 03</h2>
-                    <h1>A few classes we offer:</h1>
+                    <h1>Most popular workshops:</h1>
                     <div class="classes">
                         <div class="row">
                             <div class="class">
-                                <h1 class="blue"><i class="fa-brands fa-java"></i> Intermediate Java</h1>
+                                <h1 class="blue"><i class="fa-brands fa-java"></i> Introductory Java</h1>
                                 <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, vel.</p>
+                                <p>Students are introduced to the exciting world of Java and explore object-oriented programming, structured application design, and collaborative application development. Recommended for rising 5th graders and above.</p>
                                 <button>READ MORE</button>
 
                             </div>
                             <div class="class">
                                 <h1 class="gold"> <i class="fa-brands fa-python"></i> Introductory Python</h1>
                                 <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, vel.</p>
+                                <p>Students are familiarized with the fundamentals of the Python programming language and learn to design engaging, organized application projects to implement their skills. Recommended for rising 5th graders and above.</p>
                                 <button>READ MORE</button>
 
                             </div>
@@ -97,27 +88,38 @@
                             <div class="class">
                                 <h1 class="gold"> <i class="fa-brands fa-python"></i> Intermediate Python</h1>
                                 <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, vel.</p>
+                                <p>Students dive deeper into the Python programming language to explore advanced computer science concepts and develop complex, meaningful applications. Recommended knowledge of Python up to all topics covered in the beginner curriculum.</p>
                                 <button>READ MORE</button>
 
                             </div>
                             <div class="class">
-                                <h1 class="blue"> <i class="fa-solid fa-code"></i> Comp. Web Development</h1>
+                                <h1 class="blue"> <i class="fa-solid fa-code"></i> Comprehensive Web Development</h1>
                                 <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, vel.</p>
+                                <p>Students explore the world of web development through learning the basics of HTML, CSS, and JavaScript. Students will leave this course with their own website and intermediate-level knowledge of the aforementioned languages. Recommended for 5th graders and above; no prior experience with coding is needed.</p>
                                 <button>READ MORE</button>
 
                             </div>
                         </div>
+                        <button id="indexbtn">View all</button>
                     </div>
 
                 </div>
-
-                <!-- <div class="half classes">
-                    
-                </div> -->
             </div>
         </div>
+        <footer>
+            <table>
+                <tr>
+                    <th>Home</th>
+                    <th>About</th>
+                    <th>Classes</th>
+                    <th>Testimonials</th>
+                    <th>Contribute</th>
+                    <th>Contact</th>
+                </tr>
+            </table>
+            <p>Copyright KidCoders 365 LLC 2019</p>
+            <br>
+        </footer>
     </div>
 </body>
 
