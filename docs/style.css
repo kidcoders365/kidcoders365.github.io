@@ -9,6 +9,14 @@ body, html {
     background-color:rgb(9, 9, 9);
 }
 
+#navbar2{
+    width:100%; 
+    /*box-shadow: 0 0.3px 10px 10px rgb(7, 7, 7, 0.3);*/
+    transition: 0.3s;
+    font-family: 'Oxygen', sans-serif;
+    background-color: black;
+}
+
 #navbar{
     width:100%; 
     /*box-shadow: 0 0.3px 10px 10px rgb(7, 7, 7, 0.3);*/
