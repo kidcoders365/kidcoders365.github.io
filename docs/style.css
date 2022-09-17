@@ -7,7 +7,7 @@ body, html {
     line-height: 2em;
 }
 .container {
-    background-color:rgb(9, 9, 9);
+    background-color:white;
 }
 
 #navbar2{
@@ -78,17 +78,11 @@ body, html {
     display:flex;
     height:100vh;
     width:100%;
-
 }
-
-
-
 
 .half {
     width:45%;
 }
-
-
 
 .first-text{
     position:relative;
@@ -103,7 +97,6 @@ body, html {
 .third-text{
     position:relative;
     top: 50%;
-    transform:translate(0,-50%);
     padding:50px;
 }
 
@@ -227,12 +220,15 @@ a{
     background-color: white;
     color: black;
     height: auto;
+    display: flex;
+    width: 100%;
 }
 
 .third-section {
     background: #10254f;
     position: relative;
     height: auto;
+    display: flex;
 }
 
 table {
@@ -294,11 +290,13 @@ p#title {
     background-color: rgb(234, 234, 234);
     color: black;
     height: auto;
+    padding: 20px;
 }
 
 .box-container {
     width: 65%;
-    transform: translate(10%, 10%);
+    transform: translate(10%);
+    height: auto;
 }
 
 .box {
