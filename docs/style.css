@@ -4,6 +4,7 @@ body, html {
     margin:0;
     padding:0;
     scroll-behavior: smooth;
+    line-height: 2em;
 }
 .container {
     background-color:rgb(9, 9, 9);
@@ -84,7 +85,7 @@ body, html {
 
 
 .half {
-    width:50%;
+    width:45%;
 }
 
 
@@ -92,7 +93,7 @@ body, html {
 .first-text{
     position:relative;
     top:30%;
-    transform:translate(0,-50%);
+    transform:translate(10%,-50%);
     padding:50px;
 }
 .second-text{
@@ -114,10 +115,8 @@ body, html {
 }
 
 .img-half{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    margin: 20px;
+    width: 60%;
 }
 
 .blue{
@@ -130,7 +129,7 @@ body, html {
 
 img {
     width:100%;
-    height:100%;
+    height:auto;
 }
 
 #border {
@@ -225,14 +224,15 @@ a{
 }
 
 .second-section {
-    background-color: #23222c;
-    height: 80vh;
+    background-color: white;
+    color: black;
+    height: auto;
 }
 
 .third-section {
     background: #10254f;
     position: relative;
-    height: 100vh;
+    height: auto;
 }
 
 table {
@@ -288,4 +288,41 @@ p#title {
 .member img {
     width:200px;
     height:200px;
+}
+
+.fourth-section {
+    background-color: rgb(234, 234, 234);
+    color: black;
+    height: auto;
+}
+
+.box-container {
+    width: 65%;
+    transform: translate(10%, 10%);
+}
+
+.box {
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.title h2 {
+    color: black;
+}
+
+.title {
+    width: 65%;
+    float: left;
+}
+
+.img {
+    width: 30%;
+    float: right;
+}
+
+.blog-author {
+    color: #ed1c1c;
 }
