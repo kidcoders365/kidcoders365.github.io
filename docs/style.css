@@ -373,3 +373,25 @@ p#title {
     color: white;
     border-radius: 30px;
 }
+
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonials-container {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+}
+
+.testimonials {
+    width: 40%;
+    margin: 20px;
+    color: black;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(163, 244, 255);
+    box-shadow: 0 5px 10px 0 black;
+    padding: 20px;
+}
