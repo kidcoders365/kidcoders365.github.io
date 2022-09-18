@@ -95,10 +95,10 @@ body, html {
 .first-text-index{
     position:relative;
     top:30%;
-    transform:translate(180%,-60%);
+    transform:translate(230%,-50%);
     width: 65%;
-    padding:50px;
     text-align: center;
+    overflow: hidden;
 }
 .second-text{
     position:relative;
