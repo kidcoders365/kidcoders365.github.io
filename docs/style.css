@@ -247,6 +247,8 @@ a{
     position: relative;
     height: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
@@ -415,4 +417,42 @@ p#title {
 
 mark {
     background-color: rgb(253, 255, 207);
+}
+
+.first-text-contribute {
+    width: 100%;
+    height: auto;
+    transform: translate(10%, 40%);
+    border: 1px solid red;
+}
+
+.second-section-contribute {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.card-contribute-row {
+    display: flex;
+    width: 100%;
+}
+
+.card-contribute {
+    width: 40%;
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
+
+.contribute-box-left {
+    width: 50%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.contribute-box-right {
+    width: 50%;
+    height: auto;
+    border: 1px solid green;
 }
