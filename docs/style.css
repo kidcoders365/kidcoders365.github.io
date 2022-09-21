@@ -4,16 +4,27 @@ body, html {
     margin:0;
     padding:0;
     scroll-behavior: smooth;
+    line-height: 2em;
 }
-.container {
-    background-color:rgb(9, 9, 9);
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar2{
+    width:100%; 
+    transition: 0.3s;
+    font-family: 'Oxygen', sans-serif;
+    background-color: black;
 }
 
 #navbar{
     width:100%; 
-    /*box-shadow: 0 0.3px 10px 10px rgb(7, 7, 7, 0.3);*/
     transition: 0.3s;
     font-family: 'Oxygen', sans-serif;
+    font-size: 1.1em;
 }
 
 #navbar:hover {
@@ -46,22 +57,22 @@ body, html {
 }
 
 .blueHover:hover{
-    color:#2562d8;
+    color:#2254f2;
     transition:.33s
 }
 
 .blueActive{
-    color: #2562d8;
+    color: #2254f2;
     
 }
 
 .goldHover:hover{
-    color:#f4d45e;
+    color:#efd471;
     transition:.33s
 }
 
 .goldActive{
-    color: #f4d45e;
+    color: #efd471;
 }
 
 
@@ -69,32 +80,42 @@ body, html {
     display:flex;
     height:100vh;
     width:100%;
-
 }
-
-
-
 
 .half {
-    width:50%;
+    width:45%;
 }
 
+.first-text {
+    position: relative;
+    top: 30%;
+    transform: translate(5%, -50%);
+    padding: 50px;
+}
 
-
-.first-text{
+.first-text-index{
     position:relative;
     top:30%;
-    transform:translate(0,-50%);
-    padding:50px;
+    transform:translate(10%, -50%);
+    width: 65%;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
 }
+
+.first-text-index h1{
+    font-size: 3em;
+}
+
 .second-text{
     position:relative;
     padding:50px;
+    transform: translateX(5%);
 }
 .third-text{
     position:relative;
     top: 50%;
-    transform:translate(0,-50%);
     padding:50px;
 }
 
@@ -106,10 +127,8 @@ body, html {
 }
 
 .img-half{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+    margin: 20px;
+    width: 60%;
 }
 
 .blue{
@@ -122,7 +141,7 @@ body, html {
 
 img {
     width:100%;
-    height:100%;
+    height:auto;
 }
 
 #border {
@@ -143,14 +162,6 @@ img {
     border-radius: 10px;
     transition:1s;
 }
-
-.class h1{
-    /* margin:20px; */
-}
-.class p{
-    /* margin:20px; */
-}
-
 
 .class h1 {
     font-size:18px;
@@ -216,15 +227,36 @@ a{
     width: 100%;
 }
 
+.first-section-index {
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+}
+
+.first-section-index a {
+    color: black;
+}
+
+#navbar:hover a {
+    color: white;
+}
+
 .second-section {
-    background-color: #23222c;
-    height: 80vh;
+    background-color: white;
+    color: black;
+    height: auto;
+    display: flex;
+    width: 100%;
 }
 
 .third-section {
     background: #10254f;
     position: relative;
-    height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
@@ -265,11 +297,12 @@ p#title {
     font-size:18px;
 }
 .member {
-    width:30%;
+    width:25%;
     margin: 25px 3% 0 0;
     padding: 30px;
-    background-color: rgb(34, 32, 81);
-    height: 80vh;
+    background-color: white;
+    color: black;
+    height: 70vh;
     overflow: scroll;
 }
 
@@ -280,4 +313,195 @@ p#title {
 .member img {
     width:200px;
     height:200px;
+}
+
+.fourth-section {
+    background-color: white;
+    color: black;
+    height: auto;
+    padding: 20px;
+}
+
+.box-container {
+    width: 65%;
+    transform: translate(5%);
+    height: auto;
+}
+
+.box {
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.title h2 {
+    color: black;
+}
+
+.title {
+    width: 65%;
+    float: left;
+}
+
+.img {
+    width: 30%;
+    float: right;
+}
+
+.blog-author {
+    color: #ed1c1c;
+}
+
+.about-first-section {
+    height: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+}
+
+.about-image {
+    width: 50%;
+    margin: 30px;
+}
+
+.card-row {
+    display: flex;
+    margin: 20px;
+    transform: translateX(5%);
+    width: 90vw;
+}
+
+.card {
+    width: 40%;
+    margin: 10px 40px 10px 10px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(163, 244, 255);
+    box-shadow: 0 5px 10px 0 black;
+}
+
+.workshop-info {
+    color: black;
+    padding: 30px;
+    transform: translateX(5%);
+    width: 70%;
+}
+
+.workshop-text{
+    position:relative;
+    top:30%;
+    transform:translate(5%,-50%);
+    padding:20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 30px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonials-container {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+}
+
+.testimonials {
+    width: 40%;
+    margin: 20px;
+    color: black;
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(163, 244, 255);
+    box-shadow: 0 5px 10px 0 black;
+    padding: 20px;
+}
+
+mark {
+    background-color: rgb(253, 255, 207);
+}
+
+.first-text-contribute {
+    width: 100%;
+    height: auto;
+    transform: translate(0%, 60%);
+    text-align: center;
+}
+
+.first-text-contribute h1 {
+    font-size: 5em;
+}
+
+.second-section-contribute {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.card-contribute-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-contribute {
+    width: 20%;
+    margin: 0 90px 0 90px;
+    text-align: center;
+    color: black;
+}
+
+.contribute-box-container {
+    width: 100%;
+    display: flex;
+    color: black;
+    background: #e8ebe6;
+    font-size: 1.1em;
+}
+
+.contribute-box1 {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin: 30px;
+}
+
+.contribute-form {
+    background: #e8ebe6;
+    height: auto;
+    text-align: center;
+    transform: translateX(0%);
+    padding: 50px;
+}
+
+.contribute-form::-webkit-scrollbar {
+    display: none;
+}
+
+.stats-section {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background:rgb(234, 234, 234);
+    padding: 40px;
+}
+
+.stats {
+    width: 30%;
+    margin: 0 90px 20px 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.stats h1 {
+    font-size: 6em;
 }
