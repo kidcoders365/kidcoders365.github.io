@@ -6,13 +6,15 @@ body, html {
     scroll-behavior: smooth;
     line-height: 2em;
 }
-.container {
-    background-color:white;
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navbar2{
     width:100%; 
-    /*box-shadow: 0 0.3px 10px 10px rgb(7, 7, 7, 0.3);*/
     transition: 0.3s;
     font-family: 'Oxygen', sans-serif;
     background-color: black;
@@ -20,7 +22,6 @@ body, html {
 
 #navbar{
     width:100%; 
-    /*box-shadow: 0 0.3px 10px 10px rgb(7, 7, 7, 0.3);*/
     transition: 0.3s;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.1em;
@@ -454,6 +455,39 @@ mark {
 .contribute-box1 {
     width: 50%;
     height: auto;
-    margin: 0 30px 30px 30px;
-    padding: 0 20px 20px 20px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.stats-section {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.stats {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50%;
+    background: rgb(252, 252, 241);
+    align-items: center;
+    text-align: center;
+    overflow: scroll;
+    box-shadow: 0 5px 10px 0 black;
+}
+
+.stats::-webkit-scrollbar {
+    display: none;
+}
+
+.stats h1 {
+    font-size: 4em;
+}
+
+.stats p {
+    font-size: 0.9em;
 }
