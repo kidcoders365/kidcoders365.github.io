@@ -96,11 +96,18 @@ body, html {
 .first-text-index{
     position:relative;
     top:30%;
-    transform:translate(230%,-50%);
+    transform:translate(10%, -50%);
     width: 65%;
     text-align: center;
     overflow: hidden;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
 }
+
+.first-text-index h1{
+    font-size: 3em;
+}
+
 .second-text{
     position:relative;
     padding:50px;
@@ -423,8 +430,12 @@ mark {
 .first-text-contribute {
     width: 100%;
     height: auto;
-    transform: translate(10%, 40%);
-    border: 1px solid red;
+    transform: translate(0%, 60%);
+    text-align: center;
+}
+
+.first-text-contribute h1 {
+    font-size: 5em;
 }
 
 .second-section-contribute {
@@ -452,13 +463,15 @@ mark {
     width: 100%;
     display: flex;
     color: black;
+    background: #e8ebe6;
+    font-size: 1.1em;
 }
 
 .contribute-box1 {
     width: 50%;
     height: auto;
-    margin: 30px;
     padding: 20px;
+    margin: 30px;
 }
 
 .stats-section {
