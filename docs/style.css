@@ -437,11 +437,13 @@ mark {
 .card-contribute-row {
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-contribute {
-    width: 40%;
-    margin: 30px;
+    width: 20%;
+    margin: 0 90px 0 90px;
     text-align: center;
     color: black;
 }
@@ -449,7 +451,7 @@ mark {
 .contribute-box-container {
     width: 100%;
     display: flex;
-    background-color: #2562d8;
+    color: black;
 }
 
 .contribute-box1 {
@@ -457,7 +459,6 @@ mark {
     height: auto;
     margin: 30px;
     padding: 20px;
-    border: 1px solid white;
 }
 
 .stats-section {
