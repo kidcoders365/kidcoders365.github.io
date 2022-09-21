@@ -474,6 +474,18 @@ mark {
     margin: 30px;
 }
 
+.contribute-form {
+    background: #e8ebe6;
+    height: auto;
+    text-align: center;
+    transform: translateX(0%);
+    padding: 50px;
+}
+
+.contribute-form::-webkit-scrollbar {
+    display: none;
+}
+
 .stats-section {
     height: auto;
     align-items: center;
