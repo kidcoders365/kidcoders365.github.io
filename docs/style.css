@@ -57,22 +57,22 @@ body, html {
 }
 
 .blueHover:hover{
-    color:#2562d8;
+    color:#2254f2;
     transition:.33s
 }
 
 .blueActive{
-    color: #2562d8;
+    color: #2254f2;
     
 }
 
 .goldHover:hover{
-    color:#f4d45e;
+    color:#efd471;
     transition:.33s
 }
 
 .goldActive{
-    color: #f4d45e;
+    color: #efd471;
 }
 
 
@@ -309,7 +309,7 @@ p#title {
 }
 
 .fourth-section {
-    background-color: rgb(234, 234, 234);
+    background-color: white;
     color: black;
     height: auto;
     padding: 20px;
@@ -465,26 +465,17 @@ mark {
     align-items: center;
     justify-content: center;
     color: black;
+    background:rgb(234, 234, 234);
+    padding: 40px;
 }
 
 .stats {
-    width: 200px;
-    height: 200px;
-    padding: 30px;
-    margin: 0 100px 20px 100px;
+    width: 30%;
+    margin: 0 90px 20px 90px;
     align-items: center;
     text-align: center;
-    overflow: scroll;
-}
-
-.stats::-webkit-scrollbar {
-    display: none;
 }
 
 .stats h1 {
-    font-size: 4em;
-}
-
-.stats p {
-    font-size: 0.9em;
+    font-size: 6em;
 }
