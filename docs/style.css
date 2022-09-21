@@ -511,3 +511,13 @@ mark {
 .stats h1 {
     font-size: 6em;
 }
+
+.first-text-about {
+    position:relative;
+    top:30%;
+    transform:translate(8%, -80%);
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+}
