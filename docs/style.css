@@ -100,8 +100,7 @@ body, html {
     width: 65%;
     text-align: center;
     overflow: hidden;
-    font-family: 'Oxygen', sans-serif;
-    color: black;
+    color: white;
 }
 
 .first-text-index h1{
@@ -228,6 +227,14 @@ a{
 }
 
 .first-section-index {
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    background:rgb(7, 7, 7, 0.25);
+}
+
+.first-section-about {
     position: absolute;
     z-index: 10;
     height: 100vh;
@@ -475,7 +482,6 @@ mark {
 }
 
 .contribute-form {
-    background: #e8ebe6;
     height: auto;
     text-align: center;
     transform: translateX(0%);
