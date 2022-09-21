@@ -445,14 +445,15 @@ mark {
     color: black;
 }
 
-.contribute-box-left {
-    width: 50%;
-    height: auto;
-    border: 1px solid red;
+.contribute-box-container {
+    width: 100%;
+    display: flex;
+    background-color: #2562d8;
 }
 
-.contribute-box-right {
+.contribute-box1 {
     width: 50%;
     height: auto;
-    border: 1px solid green;
+    margin: 0 30px 30px 30px;
+    padding: 0 20px 20px 20px;
 }
