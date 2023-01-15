@@ -21,16 +21,11 @@ body, html {
 }
 
 #navbar{
+    background-color: black;
     width:100%; 
     transition: 0.3s;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.1em;
-}
-
-#navbar:hover {
-    background-color: black;
-    transition: 0.3s;
-    box-shadow: none;
 }
 
 .items {
@@ -247,7 +242,7 @@ a{
     color: black;
 }
 
-#navbar:hover a {
+#navbar a {
     color: white;
 }
 
