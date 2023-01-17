@@ -84,7 +84,7 @@ body, html {
 .first-text-index{
     position:relative;
     top:30%;
-    transform:translate(50%, -45%);
+    transform:translate(50%, -23%);
     width: 50%;
     text-align: center;
     overflow: hidden;
