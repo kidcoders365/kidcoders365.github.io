@@ -487,7 +487,15 @@ mark {
     width: 50%;
     height: auto;
     padding: 20px;
-    margin: 30px;
+    margin-left: 5%;
+}
+
+.contribute-box2 {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 2%;
 }
 
 .contribute-form {
