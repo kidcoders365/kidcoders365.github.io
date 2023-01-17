@@ -227,7 +227,7 @@ a{
 .first-section {
     position: absolute;
     z-index: 10;
-    background-color:rgb(7, 7, 7, 0.3);
+    background-color:rgb(7, 7, 7, 0.5);
     height: 100vh;
     width: 100%;
 }
@@ -413,11 +413,15 @@ p#title {
 
 .workshop-text{
     position:relative;
-    top:30%;
-    transform:translate(5%,-50%);
+    transform:translateY(-20%);
     padding:20px;
     color: white;
+    text-align: center;
+    width: 50%;
     border-radius: 30px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
 }
 
 .center {
@@ -526,7 +530,7 @@ mark {
 
 .first-text-about {
     position:relative;
-    transform:translateY(30%);;
+    transform:translateY(30%);
     width: 50%;
     text-align: center;
     overflow: hidden;
