@@ -19,6 +19,8 @@ body, html {
     transition: 0.3s;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.1em;
+    position: fixed;
+    z-index: 100;
 }
 
 .items {
@@ -84,7 +86,7 @@ body, html {
 .first-text-index{
     position:relative;
     top:30%;
-    transform:translate(50%, -23%);
+    transform:translate(50%, -5%);
     width: 50%;
     text-align: center;
     overflow: hidden;
@@ -95,13 +97,11 @@ body, html {
 
 .first-text-index h1{
     font-size: 3em;
-    background: #2562d8;
     padding: 15px;
     width: 75%;
     margin: auto;
 }
 .first-text-index p {
-    background: rgb(37, 98, 216, 0.45);
     padding: 15px;
     border-radius: 20px;
 }
@@ -177,17 +177,18 @@ img {
 }
 
 button {
-    background-color: transparent;
+    background-color: #2254f2;
     color:white;
     font-family:"Playfair Display";
     font-size:15px;
     border:none;
     padding:5px 10px;
     transition:1s;
+    border-radius: 5px;
 }
 
 button:hover{
-    background-color:rgb(7, 7, 7);
+    background-color:#2254f2;
     transition:1s;
 }
 
@@ -215,6 +216,7 @@ a{
     height: 100vh;
     z-index: 1;
     position: relative;
+    filter: brightness(0.7);
 }
 
 .first-section {
@@ -257,7 +259,7 @@ a{
 }
 
 .third-section {
-    background: #10254f;
+    background: #2254f2;
     position: relative;
     height: auto;
     display: flex;
@@ -531,7 +533,7 @@ mark {
 
 .first-text-about {
     position:relative;
-    transform:translateY(30%);
+    transform:translateY(50%);
     width: 50%;
     text-align: center;
     overflow: hidden;
