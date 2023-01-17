@@ -13,13 +13,6 @@ body, html {
     align-items: center;
 }
 
-#navbar2{
-    width:100%; 
-    transition: 0.3s;
-    font-family: 'Oxygen', sans-serif;
-    background-color: black;
-}
-
 #navbar{
     background-color: black;
     width:100%; 
