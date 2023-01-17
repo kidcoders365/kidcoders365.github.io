@@ -316,11 +316,17 @@ p#title {
     background-color: white;
     color: black;
     height: 70vh;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 .member::-webkit-scrollbar {
-    display: none;
+    width: 5px;
+    color: black;
+}
+
+.member::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    background-color: rgb(121, 121, 121);
 }
 
 .member img {
@@ -520,10 +526,16 @@ mark {
 
 .first-text-about {
     position:relative;
-    top:30%;
-    transform:translate(8%, -80%);
-    width: 80%;
+    transform:translateY(30%);;
+    width: 50%;
     text-align: center;
     overflow: hidden;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
     color: black;
+    font-size: 1.2em;
+}
+
+.first-text-about h1 {
+    font-size: 3em;
 }
