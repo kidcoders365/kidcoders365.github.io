@@ -91,7 +91,7 @@ body, html {
 .first-text-index{
     position:relative;
     top:30%;
-    transform:translate(50%, -50%);
+    transform:translate(50%, -45%);
     width: 50%;
     text-align: center;
     overflow: hidden;
@@ -102,6 +102,15 @@ body, html {
 
 .first-text-index h1{
     font-size: 3em;
+    background: #2562d8;
+    padding: 15px;
+    width: 75%;
+    margin: auto;
+}
+.first-text-index p {
+    background: rgb(37, 98, 216, 0.45);
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .second-text{
@@ -330,6 +339,7 @@ p#title {
     width: 65%;
     transform: translate(5%);
     height: auto;
+    margin: auto;
 }
 
 .box {
