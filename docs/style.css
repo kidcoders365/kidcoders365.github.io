@@ -13,24 +13,14 @@ body, html {
     align-items: center;
 }
 
-#navbar2{
-    width:100%; 
-    transition: 0.3s;
-    font-family: 'Oxygen', sans-serif;
-    background-color: black;
-}
-
 #navbar{
+    background-color: black;
     width:100%; 
     transition: 0.3s;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.1em;
-}
-
-#navbar:hover {
-    background-color: black;
-    transition: 0.3s;
-    box-shadow: none;
+    position: fixed;
+    z-index: 100;
 }
 
 .items {
@@ -89,22 +79,31 @@ body, html {
 .first-text {
     position: relative;
     top: 30%;
-    transform: translate(5%, -50%);
+    transform: translate(50%, -50%);
     padding: 50px;
 }
 
 .first-text-index{
     position:relative;
     top:30%;
-    transform:translate(10%, -50%);
-    width: 65%;
+    transform:translate(50%, -5%);
+    width: 50%;
     text-align: center;
     overflow: hidden;
     color: white;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .first-text-index h1{
     font-size: 3em;
+    padding: 15px;
+    width: 75%;
+    margin: auto;
+}
+.first-text-index p {
+    padding: 15px;
+    border-radius: 20px;
 }
 
 .second-text{
@@ -178,17 +177,18 @@ img {
 }
 
 button {
-    background-color: transparent;
+    background-color: #2254f2;
     color:white;
     font-family:"Playfair Display";
     font-size:15px;
     border:none;
     padding:5px 10px;
     transition:1s;
+    border-radius: 5px;
 }
 
 button:hover{
-    background-color:rgb(7, 7, 7);
+    background-color:#2254f2;
     transition:1s;
 }
 
@@ -216,12 +216,13 @@ a{
     height: 100vh;
     z-index: 1;
     position: relative;
+    filter: brightness(0.7);
 }
 
 .first-section {
     position: absolute;
     z-index: 10;
-    background-color:rgb(7, 7, 7, 0.3);
+    background-color:rgb(7, 7, 7, 0.5);
     height: 100vh;
     width: 100%;
 }
@@ -245,7 +246,7 @@ a{
     color: black;
 }
 
-#navbar:hover a {
+#navbar a {
     color: white;
 }
 
@@ -258,7 +259,7 @@ a{
 }
 
 .third-section {
-    background: #10254f;
+    background: #2254f2;
     position: relative;
     height: auto;
     display: flex;
@@ -310,11 +311,17 @@ p#title {
     background-color: white;
     color: black;
     height: 70vh;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 .member::-webkit-scrollbar {
-    display: none;
+    width: 5px;
+    color: black;
+}
+
+.member::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    background-color: rgb(121, 121, 121);
 }
 
 .member img {
@@ -333,6 +340,7 @@ p#title {
     width: 65%;
     transform: translate(5%);
     height: auto;
+    margin: auto;
 }
 
 .box {
@@ -400,12 +408,15 @@ p#title {
 
 .workshop-text{
     position:relative;
-    top:30%;
-    transform:translate(5%,-50%);
+    transform:translateY(-20%);
     padding:20px;
-    background: rgba(0, 0, 0, 0.6);
     color: white;
+    text-align: center;
+    width: 50%;
     border-radius: 30px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
 }
 
 .center {
@@ -478,7 +489,15 @@ mark {
     width: 50%;
     height: auto;
     padding: 20px;
-    margin: 30px;
+    margin-left: 5%;
+}
+
+.contribute-box2 {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 2%;
 }
 
 .contribute-form {
@@ -497,7 +516,7 @@ mark {
     align-items: center;
     justify-content: center;
     color: black;
-    background:rgb(234, 234, 234);
+    background:#f4d45e;
     padding: 40px;
 }
 
@@ -514,10 +533,16 @@ mark {
 
 .first-text-about {
     position:relative;
-    top:30%;
-    transform:translate(8%, -80%);
-    width: 80%;
+    transform:translateY(50%);
+    width: 50%;
     text-align: center;
     overflow: hidden;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
     color: black;
+    font-size: 1.2em;
+}
+
+.first-text-about h1 {
+    font-size: 3em;
 }
