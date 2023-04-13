@@ -1,10 +1,11 @@
 body, html {
-    font-family:"Playfair Display";
+    font-family: 'Anuphan', sans-serif;
     color:white;
     margin:0;
     padding:0;
     scroll-behavior: smooth;
     line-height: 2em;
+    overflow-x: hidden;
 }
 
 .flex-container {
@@ -14,10 +15,9 @@ body, html {
 }
 
 #navbar{
-    background-color: black;
-    width:100%; 
+    width: 100vw; 
     transition: 0.3s;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Anuphan', sans-serif;
     font-size: 1.1em;
     position: fixed;
     z-index: 100;
@@ -92,7 +92,7 @@ body, html {
     overflow: hidden;
     color: white;
     font-size: 1.2em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Anuphan', sans-serif;
 }
 
 .first-text-index h1{
@@ -179,7 +179,7 @@ img {
 button {
     background-color: #2254f2;
     color:white;
-    font-family:"Playfair Display";
+    font-family: 'Anuphan', sans-serif;
     font-size:15px;
     border:none;
     padding:5px 10px;
@@ -195,7 +195,7 @@ button:hover{
 #indexbtn {
     background: #2562d8;
     color: white;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Anuphan', sans-serif;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 2px 5px 0 rgb(7, 7, 7, 0.5);
@@ -224,22 +224,22 @@ a{
     z-index: 10;
     background-color:rgb(7, 7, 7, 0.5);
     height: 100vh;
-    width: 100%;
+    width: fill;
 }
 
 .first-section-index {
     position: absolute;
     z-index: 10;
     height: 100vh;
-    width: 100%;
-    background:rgb(7, 7, 7, 0.25);
+    width: fill;
+    background:rgb(7, 7, 7, 0.1);
 }
 
 .first-section-about {
     position: absolute;
     z-index: 10;
     height: 100vh;
-    width: 100%;
+    width: fill;
 }
 
 .first-section-index a {
@@ -250,16 +250,20 @@ a{
     color: white;
 }
 
+#navbar:hover {
+    background-color: black;
+}
+
 .second-section {
     background-color: white;
     color: black;
     height: auto;
     display: flex;
-    width: 100%;
+    width: fill;
 }
 
 .third-section {
-    background: #2254f2;
+    background: #f4d45e;
     position: relative;
     height: auto;
     display: flex;
@@ -396,7 +400,7 @@ p#title {
     padding: 20px;
     border-radius: 20px;
     border-bottom: 5px solid rgb(163, 244, 255);
-    box-shadow: 0 5px 10px 0 black;
+    box-shadow: 0 2px 5px 0 black;
 }
 
 .workshop-info {
@@ -408,14 +412,14 @@ p#title {
 
 .workshop-text{
     position:relative;
-    transform:translateY(-20%);
+    transform:translateY(5%);
     padding:20px;
     color: white;
     text-align: center;
     width: 50%;
     border-radius: 30px;
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Anuphan', sans-serif;
     font-size: 1.2em;
 }
 
@@ -538,7 +542,7 @@ mark {
     text-align: center;
     overflow: hidden;
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Anuphan', sans-serif;
     color: black;
     font-size: 1.2em;
 }

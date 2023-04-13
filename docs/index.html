@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
-<body>
+<body onscroll="scrollFunc()">
     <div class="container">
         <div class="first-section-index">
             <nav id="navbar">
@@ -98,41 +99,28 @@
         </div>
         <div class="third-section">
                 <div class="third-text">
-                    <h1>Most popular workshops</h1>
-                    <div class="classes">
-                        <div class="row">
-                            <div class="class">
-                                <h1 class="blue"><i class="fa-brands fa-java"></i> Introductory Java</h1>
-                                <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Students are introduced to the exciting world of Java and explore object-oriented programming, structured application design, and collaborative application development. Recommended for rising 5th graders and above.</p>
-                                <button>Register</button>
-
-                            </div>
-                            <div class="class">
-                                <h1 class="gold"> <i class="fa-brands fa-python"></i> Introductory Python</h1>
-                                <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Students are familiarized with the fundamentals of the Python programming language and learn to design engaging, organized application projects to implement their skills. Recommended for rising 5th graders and above.</p>
-                                <button>Register</button>
-
-                            </div>
+                    <div class="card-row">
+                        <h1 style="color: black">Most popular workshops</h1>
+                    </div>
+                    <div class="card-row">
+                        <div class="card">
+                            <h1 class="blue"><i class="fa-brands fa-java"></i> Comprehensive Deb Development</h1>
+                            <p><span class="blue">Duration: </span> 09/22/2022 - 12/22/2022</p>
+                            <p><span class="blue">Time: </span> Every Wednesday @ 3:00-4:30PM (EST)</p>
+                            <p>Students are introduced to the exciting world of Java and explore object-oriented programming, structured application design, and collaborative application development. Recommended for rising 5th graders and above.</p>
+                            <button id="indexbtn">Register</button>
                         </div>
-                        <div class="row">
-                            <div class="class">
-                                <h1 class="gold"> <i class="fa-brands fa-python"></i> Intermediate Python</h1>
-                                <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Students dive deeper into the Python programming language to explore advanced computer science concepts and develop complex, meaningful applications. Recommended knowledge of Python up to all topics covered in the beginner curriculum.</p>
-                                <button>Register</button>
-
-                            </div>
-                            <div class="class">
-                                <h1 class="blue"> <i class="fa-solid fa-code"></i> Comprehensive Web Development</h1>
-                                <p><span class="gold">Start Date: </span> MM/DD/YYYY</p>
-                                <p>Students explore the world of web development through learning the basics of HTML, CSS, and JavaScript. Students will leave this course with their own website and intermediate-level knowledge of the aforementioned languages. Recommended for 5th graders and above; no prior experience with coding is needed.</p>
-                                <button>Register</button>
-
-                            </div>
+                        <div class="card">
+                            <h1 class="blue"><i class="fa-brands fa-java"></i> Introductory Python</h1>
+                            <p><span class="blue">Duration: </span> 09/22/2022 - 12/22/2022</p>
+                            <p><span class="blue">Time: </span> Every Wednesday @ 3:00-4:30PM (EST)</p>
+                            <p>Students are introduced to the exciting world of Java and explore object-oriented programming, structured application design, and collaborative application development. Recommended for rising 5th graders and above.</p>
+                            <button id="indexbtn">Register</button>
                         </div>
-                        <button id="indexbtn">View all</button>
+                    </div>
+                        <div class="card-row">
+                            <button id="indexbtn">View all</button>
+                        </div>
                     </div>
 
                 </div>
