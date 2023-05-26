@@ -318,29 +318,18 @@ p#title {
 .member {
     width:25%;
     margin: 25px 3% 30px 0;
-    padding: 30px;
     background-color: white;
+    padding: 60px 20px 20px 20px;
     color: black;
     height: 70vh;
     border-radius: 20px;
-    overflow-y: auto;
     align-items: center;
     text-align: center;
 }
 
-.member::-webkit-scrollbar {
-    width: 5px;
-    color: black;
-}
-
-.member::-webkit-scrollbar-thumb {
-    border-radius:5px;
-    background-color: rgb(121, 121, 121);
-}
 
 .member img {
-    width:200px;
-    height:200px;
+    width:80%;
 }
 
 .fourth-section {
@@ -388,6 +377,7 @@ p#title {
     background-color: white;
     color: black;
     display: flex;
+    vertical-align: middle;
 }
 
 .about-image {
