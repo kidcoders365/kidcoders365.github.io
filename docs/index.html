@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body onscroll="scrollFunc()">
@@ -29,15 +28,29 @@
                     <a class="item blueHover" href="about.html">ABOUT US</a>
                     <a class="item blueHover" href="class-information.html">OUR CLASSES</a>
                     <a class="item blueHover" href="blog.html">BLOG</a>
-                    <a class="item blueHover" href="contribute.html">CONTRIBUTE</a>
+                    <a class="item blueHover" href="contribute.html">JOIN US</a>
                     <a class="item blueHover" href="contact.html">CONTACT US</a>
                 </div>
             </nav>
+            <nav id="navbar2">
+                <div class="items">
+                    <img class="item" src="images/kidcoders logo.png">
+                    <i class="fa-solid fa-bars item" id="menu" on="false" style="font-size: 1.9em; padding: 0; margin: auto; margin-right: 8vw;"></i>
+                </div>
+            </nav>
+            <div id="navigation">
+                <a href="index.html">HOME</a><br><br>
+                <a href="about.html">ABOUT US</a><br><br>
+                <a href="class-information.html">OUR CLASSES</a><br><br>
+                <a href="blog.html">BLOG</a><br><br>
+                <a href="contribute.html">JOIN US</a><br><br>
+                <a href="contact.html">CONTACT US</a><br><br>
+            </div>
             <div class="fs-container">
                     <div class="first-text-index">
                         <h1><span class="gold">KidCoders 365.</span></h1>
-                        <p>Interested in learning the various coding languages of the future? Look no further than KidCoders 365. Run for students, by students. All for free. Come join us in the Rockville Memorial Library's second floor computer lab or online via zoom. Registration for fall 2022 workshops is opening soon!</p>
-                        <button id="indexbtn">Register</button>
+                        <p>Interested in learning the various coding languages of the future? Look no further than KidCoders 365. Run for students, by students. All for free. Come join us in the Rockville Memorial Library's second floor computer lab or online via zoom. Registration for Summer 2023 workshops is open!</p>
+                        <button id="indexbtn" onclick="location.href='https://forms.gle/qoyvEM5mqiPenFTu5'">Register</button>
                     </div>
                 </div>
             </div>
@@ -47,9 +60,9 @@
             <div class="half text-half">
                 <div class="second-text">
                     <h1>Who are we?</h1>
-                    <p>KidCoders 365 is an organization that offers free, interactive programmingclasses for elementary, middle, and high school students, run by high schoolstudents in Maryland.</p>
+                    <p>KidCoders 365 is an organization that offers free, interactive programming classes for elementary, middle, and high school students, run by high school students in Maryland.</p>
                     <h1>What do we do?</h1>
-                    <p>Today’s kids often feel that there are limited opportunities to learn fullprogramming languages. Our organization seeks to provide youth with free,unrestricted opportunities to explore computer programming, a vital skill in themodern world, as well as essential skills related to the subject.</p>
+                    <p>Today’s kids often feel that there are limited opportunities to learn full programming languages. Our organization seeks to provide youth with free, unrestricted opportunities to explore computer programming, a vital skill in the modern world, as well as essential skills related to the subject.</p>
                     <button id="indexbtn" onclick="location.href='about.html'">Learn more</button>
                 </div>
             </div>
@@ -58,18 +71,18 @@
             </div>
         </div>
         <div class="stats-section">
-            <h1 style="transform: translateX(0%); text-align: center;">The numbers</h1>
+            <h1 id="nums" style="text-align: center;">The numbers</h1>
             <div class="flex-container">
                 <div class="stats">
-                    <h1><span class="blue">100+</span></h1>
-                    <p>Number of students who attended winter & summer workshops 2022</p>
+                    <h1><span class="blue">200+</span></h1>
+                    <p>Number of students who have attended KidCoders 365 workshops</p>
                 </div>
                 <div class="stats">
                     <h1><span class="blue">10</span></h1>
                     <p>Number of qualified instructors to teach various languages</p>
                 </div>
                 <div class="stats">
-                    <h1><span class="blue">6+</span></h1>
+                    <h1><span class="blue">8+</span></h1>
                     <p>Number of languages and specialties we offer</p>
                 </div>
             </div>
@@ -104,18 +117,18 @@
                     </div>
                     <div class="card-row">
                         <div class="card">
-                            <h1 class="blue"><i class="fa-brands fa-java"></i> Comprehensive Deb Development</h1>
-                            <p><span class="blue">Duration: </span> 09/22/2022 - 12/22/2022</p>
-                            <p><span class="blue">Time: </span> Every Wednesday @ 3:00-4:30PM (EST)</p>
-                            <p>Students are introduced to the exciting world of Java and explore object-oriented programming, structured application design, and collaborative application development. Recommended for rising 5th graders and above.</p>
-                            <button id="indexbtn">Register</button>
+                            <h1 class="blue"><i class="fa-brands fa-java"></i> Comprehensive Web Development</h1>
+                            <strong><p><span class="blue">Duration: </span> 07/10/2023 - 07/14/2023</p>
+                            <p><span class="blue">Time: </span> Every Day @ 4:00-6:00 PM (EST)</p></strong>
+                            <p>Students explore the world of web development by learning the basics of HTML, CSS, and JavaScript. Students will leave this course with their own website and intermediate-level knowledge of the aforementioned languages. Recommended for 5th graders and above; no prior experience with coding is needed.</p>
+                            <button id="indexbtn" onclick="location.href='https://forms.gle/qoyvEM5mqiPenFTu5'">Register</button>
                         </div>
                         <div class="card">
-                            <h1 class="blue"><i class="fa-brands fa-java"></i> Introductory Python</h1>
-                            <p><span class="blue">Duration: </span> 09/22/2022 - 12/22/2022</p>
-                            <p><span class="blue">Time: </span> Every Wednesday @ 3:00-4:30PM (EST)</p>
-                            <p>Students are introduced to the exciting world of Java and explore object-oriented programming, structured application design, and collaborative application development. Recommended for rising 5th graders and above.</p>
-                            <button id="indexbtn">Register</button>
+                            <h1 class="blue"><i class="fa-brands fa-java"></i> Scratch</h1>
+                            <strong><p><span class="blue">Duration: </span> 06/26/2023 - 06/30/2023</p>
+                            <p><span class="blue">Time: </span> Every Day @ 3:00-5:00 PM (EST)</p></strong>
+                            <p>Students explore the world of programming with fun projects and interactive activities. They will have fun playing and developing their own games, all while learning the basic principles of coding. Recommended for elementary and middle schoolers.</p>
+                            <button id="indexbtn" onclick="location.href='https://forms.gle/qoyvEM5mqiPenFTu5'">Register</button>
                         </div>
                     </div>
                         <div class="card-row">
@@ -125,6 +138,7 @@
 
                 </div>
         </div>
+        <script src="script.js"></script>
         <!--<footer>
             <table>
                 <tr>
