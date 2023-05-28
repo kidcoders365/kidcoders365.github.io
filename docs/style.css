@@ -297,6 +297,15 @@ th {
     text-align: center;
 }
 
+.member-container{
+    height:100%;
+    width:100%;
+    margin:50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .staff-row{
     /* margin:30px; */
     display:flex;
@@ -319,7 +328,7 @@ p#title {
     width:25%;
     margin: 25px 3% 30px 0;
     background-color: white;
-    padding: 60px 20px 20px 20px;
+    padding: 60px 20px 80px 20px;
     color: black;
     height: 70vh;
     border-radius: 20px;
@@ -617,7 +626,7 @@ mark {
 .bio{
     height:100%;
     position:fixed;
-    left:75%;
+    left:70%;
     background-color:#2254f2;
     top:15%;
     width:30%;
@@ -784,5 +793,30 @@ mark {
 
     .contribute-box1, .contribute-box2 {
         width: 95%;
+    }
+
+    .staff-members {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .staff-row {
+        display: inline-block;
+    }
+
+    .member {
+        width: 80%;
+        margin-bottom: 5vh;
+        padding: 10vw;
+        padding-bottom: 20vw;
+    }
+
+    .member-container {
+        margin: 0;
+    }
+
+    .bio {
+        width: 100%;
+        left: 0;
     }
 }
