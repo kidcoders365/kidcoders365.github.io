@@ -650,6 +650,13 @@ mark {
  .hidden {
     display:none;
  }
+
+ .article {
+    width: 50%;
+    margin: auto;
+    color: black;
+    margin-top: 25vh;
+ }
  
 
 /*responsiveness*/
@@ -818,5 +825,9 @@ mark {
     .bio {
         width: 100%;
         left: 0;
+    }
+    
+    .article {
+        width: 95%;
     }
 }

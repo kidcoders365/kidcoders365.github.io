@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why You Should Learn Python</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="KC Icon" type="image/png" sizes="256x256">
+</head>
+<body>
+    <nav id="navbar" style="background-color: black;">
+        <div class="items">
+            <img class="item" src="images/kidcoders logo.png">
+            <a class="item blueHover active" href="index.html">HOME</a>
+            <a class="item blueHover" href="about.html">ABOUT US</a>
+            <a class="item blueHover" href="class-information.html">OUR CLASSES</a>
+            <a class="item blueHover" href="blog.html">BLOG</a>
+            <a class="item blueHover" href="contribute.html">JOIN US</a>
+            <a class="item blueHover" href="contact.html">CONTACT US</a>
+        </div>
+    </nav>
+    <nav id="navbar2">
+        <div class="items">
+            <img class="item" src="images/kidcoders logo.png">
+            <i class="fa-solid fa-bars item" id="menu" on="false" style="font-size: 1.9em; padding: 0; margin: auto; margin-right: 8vw;"></i>
+        </div>
+    </nav>
+    <div id="navigation">
+        <a href="index.html">HOME</a><br><br>
+        <a href="about.html">ABOUT US</a><br><br>
+        <a href="class-information.html">OUR CLASSES</a><br><br>
+        <a href="blog.html">BLOG</a><br><br>
+        <a href="contribute.html">JOIN US</a><br><br>
+        <a href="contact.html">CONTACT US</a><br><br>
+    </div>
+    <div class="article">
+        <h1>3 Reasons Why You Should Learn Python</h1>
+        <p><span class="blog-author">Joshua Saji</span> | <i>05/29/2023</i></p>
+        <p>For beginners, programming may seem intimidating due to the plethora of languages and tools available at their disposal to them. With each language having its uses, some may have a hard time trying to choose which is best for them. With that being said, Python, in comparison to other popular languages like Rust, C#, and JavaScript is the best option for beginners to learn. Below are three simple reasons why we believe so.</p>
+        <h2>1. Simplicity</h2>
+        <p>In comparison to other languages, Python is, without a doubt, the easiest to learn and comprehend. Its syntax reads a lot like English, compared to lower-level languages like C++. Take the code snippet below for example:</p>
+        <pre>
+        for i in range(100):
+            if i % 3 == 0 and i % 5 == 0:
+            print(“fizzbuzz”)
+        elif i % 5 == 0:
+            print(“buzz”)
+        elif i % 3 == 0:
+            print(“fizz”)
+        else:
+            print(i)
+        </pre>
+        <p>The code snippet above illustrates the FizzBuzz problem - a very simple yet popular problem in the world of programming - in Python syntax. We see that the snippet upon reading is relatively simple to comprehend - looping over the numbers between 0 and 100 (non-inclusive), the program checks its divisibility. If the current number is divisible by 3, it prints "fizz". If it’s divisible by 5, it prints "buzz". If it is divisible by both, it prints "fizzbuzz". If neither of the conditions listed above is true, then the number itself is printed.
+        </p>
+        <p>Let’s take a look at how this can be written in a language like Java.
+        </p>
+        <pre>
+        public static void main(String[] args){
+            for(int i = 0; i < 100; i++){
+                if(i % 3 == 0 && i % 5 == 0){
+                    System.out.println(“fizzbuzz”);
+                }
+                else if (i % 5 == 0){
+                    System.out.println(“buzz”);
+                }
+                else if(i % 3 == 0){
+                    System.out.println(“fizz”);
+                }
+                else {
+                    System.out.println(i);
+                }
+            }
+        }
+    </pre>
+        <p>In Java, we see that syntactically it’s more dense and less readable than Python. For one, the “else if” in Java is condensed to “elif” in Python. In addition, boolean keywords in Java such as “&&” and “||” are simply written as “and” and “or” respectively. Finally, although a small detail, semicolons are not required in Python. If you exclude a semicolon after a line of code in Java, you will get an error.</p>
+        <p>Overall, Python requires less to write to perform any given task compared to a language like Java, which can decrease the time spent on coding larger projects.</p>
+        <h2>2. Very versatile</h2>
+        <p>Each programming language has its specialty in the world of computer science. For example, Java is used to develop Android apps, whereas C++ is used in game development through the Unreal Engine. Similarly, Python is used to create data science algorithms and artificial intelligence models through libraries like TensorFlow, Numpy, and Pandas. However, Python also contains libraries for various other cases too - through libraries like Django and Flask, you can use Python for a website’s backend. If you want to make GUI applications, libraries like Tkinter or PyQt5 are available to use. Not all programming languages have this amount of diversity of libraries.
+        </p>
+        <p>Although Python has a great amount of versatility in application, it’s not to say that it’s the best option to use for each task. For example, if one was given a choice to use C++ or Python to make a fully-fledged video game, one would most likely choose C++ due to its superior efficiency and performance. However, for beginners, Python is still a great choice to learn for beginners to use what they know and to make projects of any kind, even if the language is not well suited for it.
+        </p>
+        <h2>3. Job market</h2>
+        <p>Finally, another big reason to learn Python is for its job outlook in the future. With the reasons mentioned above, coupled with the overwhelming rise in popularity of machine learning and artificial intelligence, the number of Python Developers in the workforce is set to increase by great amounts. For one, in 2023, the demand for Python Developers has increased by around 41% across the world and was estimated to increase by 21% between 2018 and 2028. The market of Python Developers has been increasing over the past few years, and will not stop increasing towards the future.</p>
+        <p>Thus, if you want to get into programming, or are an experienced programmer who is interested in something new, consider Python to learn. It's a great language for developers of all experience to use to make projects of any kind. If this article has convinced you, you should consider registering for our Introductory Python Workshop this Summer!
+        </p>
+    </div>
+    <script src="/docs/script.js"></script>
+</body>
+</html>
