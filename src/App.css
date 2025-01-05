@@ -1,0 +1,15 @@
+.profile-card {
+  width: 20vw;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+}
+
+.profile-card img {
+  width: 100%;
+}
+
+.container {
+  justify-content: center;
+}
